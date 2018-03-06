@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "is-stream": "^1.1.0",
+    "readable-stream-node-to-web": "^1.0.1",
     "web-streams-polyfill": "^1.3.2"
   }
 }

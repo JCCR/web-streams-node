@@ -1,14 +1,13 @@
-# node-web-streams
+# web-streams-node
 WhatWG web streams and conversion utilities for node.js
 
 This provides the [WhatWG streams](https://streams.spec.whatwg.org) API for
 node. It leverages the [WhatWG reference
-implementation](https://github.com/whatwg/streams), but also addresses
-performance issues in that implementation.
+implementation](https://github.com/whatwg/streams)
 
 ## Installation
 ```
-npm install node-web-streams
+npm install web-streams-node
 ```
 
 ## Usage
@@ -27,3 +26,9 @@ const nodeReadable = require('fs').createReadStream('/tmp/test.txt');
 const webReadable = toWebReadableStream(nodeReadable);
 const roundTrippedNodeReadable = toNodeReadable(webReadable);
 ```
+
+## Credits
+Fork of [node-web-streams](https://github.com/gwicke/node-web-streams)
+
+Original author:
+ - Gabriel Wicke [gwicke](https://github.com/gwicke)

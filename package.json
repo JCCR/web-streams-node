@@ -1,5 +1,5 @@
 {
-  "name": "node-web-streams",
+  "name": "web-streams-node",
   "version": "0.3.0",
   "description": "WhatWG web streams and conversion utilities for node.js",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gwicke/node-web-streams.git"
+    "url": "https://github.com/JCCR/web-streams-node.git"
   },
   "keywords": [
     "streamspec",
@@ -21,12 +21,12 @@
   "author": "Gabriel Wicke <gwicke@wikimedia.org>",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/gwicke/node-web-streams/issues"
+    "url": "https://github.com/JCCR/web-streams-node/issues"
   },
   "dependencies": {
     "is-stream": "^1.1.0",
     "readable-stream-node-to-web": "^1.0.1",
-    "web-streams-ponyfill": "^1.4.0"
+    "web-streams-ponyfill": "^1.4.1"
   },
   "devDependencies": {
     "tape": "^4.9.0"

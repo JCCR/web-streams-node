@@ -4,7 +4,7 @@
   "description": "WhatWG web streams and conversion utilities for node.js",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "tape test.js"
   },
   "repository": {
     "type": "git",
@@ -27,5 +27,8 @@
     "is-stream": "^1.1.0",
     "readable-stream-node-to-web": "^1.0.1",
     "web-streams-ponyfill": "^1.4.0"
+  },
+  "devDependencies": {
+    "tape": "^4.9.0"
   }
 }

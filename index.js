@@ -3,7 +3,7 @@ const nodeStream = require('stream');
 const isNodeStream = require('is-stream');
 const conversions = require('./lib/conversions');
 
-module.exports = require('web-streams-polyfill');
+module.exports = require('web-streams-ponyfill');
 
 /**
  * Convert Web streams to Node streams. Until WritableStream / TransformStream

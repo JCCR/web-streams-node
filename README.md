@@ -13,7 +13,7 @@ npm install web-streams-node
 ## Usage
 ```javascript
 // ES5 require syntax
-var webStreams = require('node-web-streams');
+var webStreams = require('web-streams-node');
 var ReadableStream = webStreams.ReadableStream;
 var toWebReadableStream = webStreams.toWebReadableStream;
 var toNodeReadable = webStreams.toNodeReadable;

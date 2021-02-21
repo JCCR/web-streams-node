@@ -5,6 +5,9 @@ This provides the [WhatWG streams](https://streams.spec.whatwg.org) API for
 node. It leverages the [WhatWG reference
 implementation](https://github.com/whatwg/streams)
 
+## [UNMAINTAINED] Switch to https://github.com/MattiasBuelens/web-streams-polyfill 
+*****
+
 ## Installation
 ```
 npm install web-streams-node
